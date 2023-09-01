@@ -1,0 +1,182 @@
+
+body {
+    font-family:'roboto';
+}
+.h164px {
+    font-size: 64px;
+}
+.h248px {
+   font-size: 48px; 
+}
+.h340px {
+    font-size: 40px;
+}
+.regular36px {
+    font-size: 36px;
+}
+.regular20px {
+    font-size: 20px;
+}
+.page1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#132D71;
+    background-image: url(./svg/compasBLUE.svg);
+    background-repeat: no-repeat;
+    background-position: -28% 284%;
+    background-size: 48%;
+    color: white;
+}
+.leftside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.logotri {
+    padding-left: 6%;
+    width: 30%;
+}
+.textpage1 {
+    padding-left: 8%;
+}
+
+
+.buttonandlink {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.lever {
+    border:none;
+    font-size: 20px;
+    padding:10px 10px 10px 10px;
+    border-radius: 5px;
+    margin-right: 1%;
+}
+.lever:hover {
+    outline: white solid 3px;
+}
+.labirint {
+   width: 72%;
+   padding: 20% 0; 
+}
+.page2 {
+    background-image:url(./svg/compasbluelight.svg);
+    background-repeat:no-repeat;
+    background-size: 40%;
+    background-position: 116% -93%;
+}
+.logoblue{
+    display: flex;
+    justify-content: center;
+}
+.logoblue img {
+    width: 25%;
+}
+.exp {
+    font-size:20px ;
+    background-color: #132D71;
+    border: none;
+    border-radius:5px;
+    padding: 0.5% 1%;
+    color: white;
+}
+.page2 .h248px {
+    color: #132D71;
+}
+.notrexp {
+    margin-left:3%;
+}
+.blocklogos {
+    display:flex;
+    justify-content:center;
+    gap: 5%;
+    padding: 0 5% 5%;
+}
+.logoblock {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    text-align: center;
+    
+}
+.test {
+    background-color:#132D71;
+    height: 225px;
+    width: 2%;
+    margin-top: 2%;
+}
+.sizeimg {
+    height: 100px;
+}
+.page3 {
+    background-image: url(./svg/sailboat-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: -40% 80%;
+    background-color: #132D71;
+    color: white;
+}
+.logowhite {
+    display: flex;
+    justify-content: center;
+}
+.titleandtext {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    padding: 0 24%;
+}
+.bigblock {
+    display: flex;
+    gap:5%;
+    padding:0 5% 2%;
+}
+.smallblock {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.lineGs{
+    display: flex;
+    align-items: baseline;
+}
+.ancre {
+    margin-top: 4%;
+    padding:10px 10px 10px 10px;
+    border-radius: 5px;
+    color:#132D71;
+    border: none;
+}
+.blockfooter {
+    display: flex;
+    justify-content: space-around;
+    color: #132D71;
+}
+.windlogo {
+    height: 15em;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: min-content;
+}
+.blocklinks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.endfooter {
+    display: flex;
+    justify-content: center;
+    border-top: solid gray;
+    margin: 2% 3% 0;
+    color:gray;
+}
